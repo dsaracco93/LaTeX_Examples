@@ -1,0 +1,64 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsthm, amssymb}
+
+%This changes the way equations are numbered
+%i.e (1.2) instead of (2) for the second equation in section 1. 
+
+\numberwithin{equation}{section}
+
+\title{MATH}
+\author{Dylan Saracco}
+%\date{}
+
+\begin{document}
+	\maketitle
+	
+	%\; creates a medium space.
+	\[ Use \; these \; brackets \; for \; unnumbered \; equations \]
+	
+	
+	\section{Math Examples}
+
+	\begin{equation}
+	Addition \quad 4 + 6 = 10
+	\label{eq:add}
+	\end{equation} 
+	
+	\begin{equation}
+	Subtract \quad 8 - 3 = 5 
+	\label{eq:sub}
+	\end{equation}
+	
+	\begin{equation}	
+	Multiplication \quad 9 \times 4 = 36 
+	\label{eq:mult}
+	\end{equation}
+	
+	\begin{equation}
+	Division \quad 25 \div 5 = 5  
+	\label{eq:div}
+	\end{equation}
+	
+	\begin{equation}
+	Integral \quad \Rightarrow \int_{a}^{b} x^2 dx	
+	\end{equation}
+	
+	\section{Use of Dollar Signs}
+	
+	$$ 5 + 5 = 10 $$
+	
+	\section{Newline}
+	Test Text
+	\newline
+	Test if newline works
+	\\
+	\\
+	Test if double backslash works for newline. 
+	\\
+	\section{Conclusion}
+	
+	Here we have tested some mathematical functions and newlines. 
+\end{document}
